@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business page | Isaac RojoN</title>
+    <link rel="stylesheet" href="mainn.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="logo-bar">
+                <a href="indexx.html"> <img class="logo" src="Isaac RojoN Visuals white.png" alt="logo"></a>
+            </div>
+
+            <div class="nav-labels visible" id="menu_options">
+                <div class="labels">
+                    <a class="nav-label" href="#"><span>Servicios <i class="fas fa-sort-down"></i> </span></a>
+                    <a class="nav-label" href="#"><span>Contacto </span></a>
+                    <a class="nav-label" href="#"><span>Iniciar Sesión </span></a>
+                </div>
+            </div>
+            <div class="burger-container">
+                <i class="fas fa-bars" id="burger_icon"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Hola!</h1>
+            <h2>soy Isaac; Rojo pa' los compas</h1>
+                <p>Y ofrezco soluciones Audiovisuales y Multimedia</p>
+                <button class="contact-button">Contactar ahora!</button>
+        </div>
+    </div>
+
+    <div class="multimedia-image">
+        <div class="mm-text"><h2>Fotografía, Video, Animación, Páginas Web, Modelado 3D, Videojuegos, y más...</h2></div>
+        <a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por rawpixel.com - www.freepik.es</a>
+    </div>
+
+    <div class="contact-form-container">
+        <div class="form-container-back">
+            <div class="form-container">
+                <h1 class="form-title">Contacta conmigo!</h1>
+
+                <form action="#" class="contact-form" id="contact_form">
+                    
+                    <div class="form-group" id="field">
+                        <label for="nombre" class="form-label ">Nombre <span class="required-indicator">*</span> </label>
+                        <input required="true" type="text" id="nombre" class="form-input ">
+                    </div>
+                    <div class="form-group" id="field">
+                        <label for="correo" class="form-label">Correo <span class="required-indicator">*</span></label>
+                        <input required="true" type="text" id="correo" class="form-input">
+                    </div>
+                    <div class="form-group" id="field">
+                        <label for="mensaje" class="form-label">Mensaje <span
+                                class="required-indicator">*</span></label>
+                        <input required="true" maxlength="200" type="textarea" id="mensaje" class="form-input-wide">
+                    </div>
+                    <div>
+                        <p> Campos requeridos <span class="required-indicator">*</span></p>
+                    </div>
+                    <div class="message danger" id="message_danger">
+                        <p id="message_danger_text"> Error... message_danger_text</p>
+                    </div>
+
+                    <button type="submit" class="form-submit-button" id="send_button">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer"> &copy; All Rights Reserved. Isaac Nájera H. | 2021 </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
