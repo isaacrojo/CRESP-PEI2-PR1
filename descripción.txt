@@ -1,0 +1,29 @@
+PR1 - Página empresarial
+Entrega: Subir a repositorio de GitHub, y además entregar como enlace de Netlify
+- Subir a repositorio de GitHub con el siguiente nombre: CRESP PEI2 PR1
+- Subir a Netlify, y enviar enlace (url) donde se pueda visualizar por mensaje privado de Slack
+Fecha límite: martes 2 de marzo de 2021
+
+
+Crear una página web para una empresa real o ficticia, que cumpla con lo siguiente:
+- Temática y diseño libres, mientras sean apropiados para un ambiente educativo, y para la empresa definida
+- Barra de navegación responsive con logo (adaptable a distintos tamaños de pantalla), con "hamburguer menu" en pantallas pequeñas
+- Hero Image (diseño) al inicio, justo después de la barra de navegación. Opcionalmente puede llevar un botón.
+- Secciones con contenido informativo de la empresa (las que sean necesarias) con diseño libre
+- Un formulario de contacto, con validaciones y con mensajes al usuario. El detalle de este formulario se incluye en la próxima sección.
+- Opcionalmente, se pueden agregar otras páginas además de la página principal
+- Incluir footer (pie de página), con copyright con el nombre de alumno o empresa
+
+Validaciones y elementos a cumplir en el formulario de contacto
+- Incluir como mínimo los siguientes campos: nombre, correo electrónico, mensaje
+- El campo mensaje debe de tipo text area
+- Se debe validar que al menos estos 3 campos son requeridos; otros campos adicionales quedan a criterio del alumno en caso de que sean agregados
+- Indicar visualmente qué campos son requeridos
+- Validar que los campos requeridos hayan sido proporcionados
+- Validar que el campo mensaje (text area) tenga un máximo de 200 caracteres.
+- En caso de error en algún campo, señalar con color rojo los campos con error
+- Mientras se esté procesando la información, deshabilitar el botón de enviar formulario
+- En caso de que todo funcione correctamente, dejar deshabilitado el botón de enviar formulario (debido a que ya se envió la información)
+- En caso de cualquier error, mostrar un mensaje de error (color rojo)
+- En caso de que todo funcione correctamente, mostrar un mensaje de éxito (color verde)
+Nota: para empresas reales, utlizar imágenes de uso libre. (editado) 
